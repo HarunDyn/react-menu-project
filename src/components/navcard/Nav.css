@@ -10,9 +10,9 @@
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color:rgb(214, 6, 6);
+    background-color:rgb(43, 42, 42);
     color: #fff;
-    padding: 1.3rem 0;
+    padding: 1rem 0;
     margin-bottom: 3rem;
     
 }
@@ -21,13 +21,12 @@
     background-color: #fff;
     color: #000;
     font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .container-nav ul li:hover{
-    outline:2px solid rgb(255, 255, 255);
-    outline-offset: 2px;
+    border-radius: 15px;
 
 }
