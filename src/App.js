@@ -8,7 +8,7 @@ const onlyCategories = new Set(Data.map((item) => item.category));
 
 function App() {
   const [menu, setMenu] = useState(Data);
-  const [categories, setCategories] = useState(["all", ...onlyCategories]);
+  const [categories] = useState(["all", ...onlyCategories]);
 
   const newCategory = (category) => {
     if (category === "all") {
